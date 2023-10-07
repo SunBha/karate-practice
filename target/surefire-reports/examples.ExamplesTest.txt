@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: examples.ExamplesTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 40.756 s <<< FAILURE! - in examples.ExamplesTest
+testAll[2][1]  Time elapsed: 0.011 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+createuser.feature:11 - 
+org.apache.http.client.ClientProtocolException
+
+testAll[4][1]  Time elapsed: 0.436 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: gorestusers.feature:16 - path: $, actual: 1035, expected: 1024, reason: not equal (Integer)
+
